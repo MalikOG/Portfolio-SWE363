@@ -1,0 +1,57 @@
+#names, #body-text {
+    margin: 5px 5px 20px 5px;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid #171717;
+    border-radius: 4px;
+    box-shadow: 10px 5px 5px #171717;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+#personal-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+#personal-image {
+    border-radius: 40%;
+    width: 150px;
+    height: 120px;
+    right: 50%;
+}
+
+.fox-div {
+    display: inline;
+    margin: 10px 10px 10px 10px;
+}
+
+.fox-image {
+    width: 120px;
+    height: 120px;
+}
+
+button {
+    background-color: #35363a;
+    border: 2px solid #7B7AAC;
+    color: #7B7AAC;
+    border-radius: 9px;
+    box-shadow: none;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.suggestText {
+    background-color: #f9f9f9;
+    border: 2px solid #202123;
+    margin: 10px 10px 10px 10px;
+    color: #7B7AAC;
+    border-radius: 9px;
+    box-shadow: none;
+    padding: 5px 5px 5px 5px;
+}
+
+

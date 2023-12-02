@@ -1,0 +1,59 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #35363a;
+    display: flex;
+    flex-direction: column;
+    color: #f9f9f9;
+}
+
+main{
+    margin-left: 10px;
+    position: relative;
+    top:50px
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+
+.logos {
+    display: inline-block;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+    margin: 0px 2px 0px 5px;
+    transition: transform ease 0.4s 0s;
+}
+
+.logo:hover{
+    transform: translateY(-5px);
+}
+
+.scene-container-off {
+    display: block;
+}
+
+.scene-container-off {
+    display: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
